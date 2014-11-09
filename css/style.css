@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+	width: 100%;
+	color: #333;
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 100%;
+	font-weight: normal;
+}
+/*barra de navegacion principal and header*/
+
+header{
+	padding: 0.1em;
+	height: 98px;
+	background-color: #3A6481;
+	color: #fff;
+}
+
+/* contenedor heroe*/
+
+.hero{
+	width: 100%;
+	min-height:400px;
+	background-color: #D39562;
+	background-image: url(../img/hero-mage.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.hero h2{
+	font-size: 4em;
+	color: #fff;
+	margin-top: 2em;
+	margin-bottom:0;
+}
+
+.hero span{
+	display: block;
+	font-size: 2em;
+	color: #fff;
+	font-weight:100;
+}
+
+.pantalla{
+	width: 100%;
+	min-height:400px;
+	padding: 1em;
+	background-color: rgba(0,0,0,0.4);
+}
